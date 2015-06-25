@@ -1,0 +1,29 @@
+{
+  "name": "appx-admin",
+  "version": "1.0.0",
+  "description": "Administration WebApp for the BackEnd",
+  "main": "index.js",
+  "scripts": {
+    "test": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/godmode0n/appx-admin.git"
+  },
+  "author": "godmode0n",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/godmode0n/appx-admin/issues"
+  },
+  "homepage": "https://github.com/godmode0n/appx-admin#readme",
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-imagemin": "^2.3.0",
+    "gulp-less": "^3.0.3",
+    "gulp-sourcemaps": "^1.5.2",
+    "gulp-traceur": "^0.17.1",
+    "gulp-uglify": "^1.2.0",
+    "gulp-util": "^3.0.6",
+    "imagemin-pngquant": "^4.1.0"
+  }
+}

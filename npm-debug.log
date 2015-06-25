@@ -1,0 +1,96 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '--save',
+1 verbose cli   'angular2.0.0-alpha.28' ]
+2 info using npm@2.11.2
+3 info using node@v0.12.5
+4 verbose install initial load of /storageOne/godmodeOn/appx-admin/package.json
+5 warn package.json appx-admin@1.0.0 No README data
+6 verbose installManyTop reading scoped package data from /storageOne/godmodeOn/appx-admin/node_modules/gulp/package.json
+7 verbose installManyTop reading scoped package data from /storageOne/godmodeOn/appx-admin/node_modules/gulp-imagemin/package.json
+8 verbose installManyTop reading scoped package data from /storageOne/godmodeOn/appx-admin/node_modules/gulp-less/package.json
+9 verbose installManyTop reading scoped package data from /storageOne/godmodeOn/appx-admin/node_modules/gulp-sourcemaps/package.json
+10 verbose installManyTop reading scoped package data from /storageOne/godmodeOn/appx-admin/node_modules/gulp-traceur/package.json
+11 verbose installManyTop reading scoped package data from /storageOne/godmodeOn/appx-admin/node_modules/gulp-uglify/package.json
+12 verbose installManyTop reading scoped package data from /storageOne/godmodeOn/appx-admin/node_modules/gulp-util/package.json
+13 verbose installManyTop reading scoped package data from /storageOne/godmodeOn/appx-admin/node_modules/imagemin-pngquant/package.json
+14 verbose readDependencies loading dependencies from /storageOne/godmodeOn/appx-admin/package.json
+15 silly cache add args [ 'angular2.0.0-alpha.28', null ]
+16 verbose cache add spec angular2.0.0-alpha.28
+17 silly cache add parsed spec { raw: 'angular2.0.0-alpha.28',
+17 silly cache add   scope: null,
+17 silly cache add   name: 'angular2.0.0-alpha.28',
+17 silly cache add   rawSpec: '',
+17 silly cache add   spec: '*',
+17 silly cache add   type: 'range' }
+18 silly addNamed angular2.0.0-alpha.28@*
+19 verbose addNamed "*" is a valid semver range for angular2.0.0-alpha.28
+20 silly addNameRange { name: 'angular2.0.0-alpha.28', range: '*', hasData: false }
+21 silly mapToRegistry name angular2.0.0-alpha.28
+22 silly mapToRegistry using default registry
+23 silly mapToRegistry registry https://registry.npmjs.org/
+24 silly mapToRegistry uri https://registry.npmjs.org/angular2.0.0-alpha.28
+25 verbose addNameRange registry:https://registry.npmjs.org/angular2.0.0-alpha.28 not in flight; fetching
+26 verbose request uri https://registry.npmjs.org/angular2.0.0-alpha.28
+27 verbose request no auth needed
+28 info attempt registry request try #1 at 00:52:14
+29 verbose request id d05711a9e42a8b5a
+30 http request GET https://registry.npmjs.org/angular2.0.0-alpha.28
+31 http 404 https://registry.npmjs.org/angular2.0.0-alpha.28
+32 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+32 verbose headers   'content-type': 'application/json',
+32 verbose headers   'cache-control': 'max-age=0',
+32 verbose headers   'content-length': '51',
+32 verbose headers   'accept-ranges': 'bytes',
+32 verbose headers   date: 'Thu, 25 Jun 2015 21:52:15 GMT',
+32 verbose headers   via: '1.1 varnish',
+32 verbose headers   age: '0',
+32 verbose headers   connection: 'keep-alive',
+32 verbose headers   'x-served-by': 'cache-ams4143-AMS',
+32 verbose headers   'x-cache': 'MISS',
+32 verbose headers   'x-cache-hits': '0',
+32 verbose headers   'x-timer': 'S1435269134.699303,VS0,VE647' }
+33 silly get cb [ 404,
+33 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+33 silly get     'content-type': 'application/json',
+33 silly get     'cache-control': 'max-age=0',
+33 silly get     'content-length': '51',
+33 silly get     'accept-ranges': 'bytes',
+33 silly get     date: 'Thu, 25 Jun 2015 21:52:15 GMT',
+33 silly get     via: '1.1 varnish',
+33 silly get     age: '0',
+33 silly get     connection: 'keep-alive',
+33 silly get     'x-served-by': 'cache-ams4143-AMS',
+33 silly get     'x-cache': 'MISS',
+33 silly get     'x-cache-hits': '0',
+33 silly get     'x-timer': 'S1435269134.699303,VS0,VE647' } ]
+34 verbose stack Error: 404 Not Found: angular2.0.0-alpha.28
+34 verbose stack     at CachingRegistryClient.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:245:14)
+34 verbose stack     at Request._callback (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:170:14)
+34 verbose stack     at Request.self.callback (/usr/local/lib/node_modules/npm/node_modules/request/request.js:354:22)
+34 verbose stack     at Request.emit (events.js:110:17)
+34 verbose stack     at Request.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:1207:14)
+34 verbose stack     at Request.emit (events.js:129:20)
+34 verbose stack     at IncomingMessage.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:1153:12)
+34 verbose stack     at IncomingMessage.emit (events.js:129:20)
+34 verbose stack     at _stream_readable.js:908:16
+34 verbose stack     at process._tickCallback (node.js:355:11)
+35 verbose statusCode 404
+36 verbose pkgid angular2.0.0-alpha.28
+37 verbose cwd /storageOne/godmodeOn/appx-admin
+38 error Linux 3.13.0-55-generic
+39 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "install" "--save" "angular2.0.0-alpha.28"
+40 error node v0.12.5
+41 error npm  v2.11.2
+42 error code E404
+43 error 404 Not Found: angular2.0.0-alpha.28
+43 error 404
+43 error 404 'angular2.0.0-alpha.28' is not in the npm registry.
+43 error 404 You should bug the author to publish it (or use the name yourself!)
+43 error 404 It was specified as a dependency of 'appx-admin'
+43 error 404
+43 error 404 Note that you can also install from a
+43 error 404 tarball, folder, http url, or git url.
+44 verbose exit [ 1, true ]
